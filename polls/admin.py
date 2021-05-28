@@ -27,3 +27,5 @@ class ChoiceAdmin(admin.ModelAdmin):
 
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice, ChoiceAdmin)
+
+admin.AdminSite.site_header = 'Polls administration'
